@@ -57,8 +57,8 @@
 }
 .container button{
     margin: auto;
-    width: 200px;
-    height: 65px;
+    width: 150px;
+    height: 55px;
     padding: 2px;
     border: none;
     background: var(--primarytheme);
@@ -72,4 +72,5 @@
 .container .question_no{
   font-size: 18px;
   text-align: center;
+  margin-top: 20px;
 }
