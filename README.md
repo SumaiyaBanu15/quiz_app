@@ -1,8 +1,15 @@
-# React + Vite
+***** Quiz Application *****
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=> This is Quiz Application page using React, JavaScript, HTML, CSS. 
 
-Currently, two official plugins are available:
+=> 10 Questions each have four Options with Timer - (30 seconds each questions), Once timeout it will move to next question. Questions are fetched from open source API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+=> If you select the correct answer, it will show Green color.
+
+=> If you select the incorrect answer, it will show Red color.
+
+=> Here, two buttons 1. Previous button - Move to previous question and 2. Next button - Move to next question.
+
+=> Once you finish the quiz, you will get your score out of 10 and If you want restart the quiz you have to click Reset button - Quiz will start from beginning.
+
+=> Netlify Deployed URL: https://glistening-marigold-7803c2.netlify.app
