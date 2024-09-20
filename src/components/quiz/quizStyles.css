@@ -1,15 +1,15 @@
 .container{
     width: 640px;
-    height: 90vh;
+    height: 100vh;
     margin: auto;
     margin-top: 10px;
     background: var(--white);
     color: var(--black);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 30px 40px;
 }
 
 .container hr{
