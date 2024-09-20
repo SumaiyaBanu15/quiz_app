@@ -1,0 +1,75 @@
+.container{
+    width: 640px;
+    height: 90vh;
+    margin: auto;
+    margin-top: 10px;
+    background: var(--white);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: var(--grey);
+}
+.container .header{
+    display: flex;
+    gap: 150px;
+}
+.container .header .timer{
+  margin: auto;
+  font-size: 18px;
+  color: var(--red);
+}
+.container h1{
+    color: var(--primarytheme);
+}
+
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid var(--borderclr);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container .navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.container button{
+    margin: auto;
+    width: 200px;
+    height: 65px;
+    padding: 2px;
+    border: none;
+    background: var(--primarytheme);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .question_no{
+  font-size: 18px;
+  text-align: center;
+}
